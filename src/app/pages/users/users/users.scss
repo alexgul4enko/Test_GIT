@@ -1,0 +1,11 @@
+@import "variables";
+
+.users {
+  max-width: 600px;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.no-data {
+  color: $gray-900;
+}

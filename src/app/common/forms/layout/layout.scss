@@ -1,0 +1,26 @@
+@import "variables";
+
+.root {
+  display: flex !important;
+  .label {
+    color: $black;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    position: static;
+    transform: none;
+    padding-bottom: 8px;
+  }
+}
+
+.error {
+  color: $danger;
+  font-size: 12px;
+  line-height: 16px;
+  margin: 4px 0 8px 0;
+  min-height: 16px;
+}
+
+.error-text {
+  margin: 0;
+}

@@ -1,0 +1,17 @@
+@import "variables";
+
+.pull {
+  display: block !important;
+  margin-bottom: 8px;
+}
+
+.name {
+  color: $black;
+  margin: 0;
+}
+
+.desc {
+  font-size: 14px;
+  margin-bottom: 0;
+  margin-top: 8px;
+}

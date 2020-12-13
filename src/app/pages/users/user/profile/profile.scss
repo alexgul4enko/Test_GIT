@@ -1,0 +1,29 @@
+@import "variables";
+
+.header {
+  position: sticky;
+  top: $header-height;
+  background: $page;
+  z-index: 2;
+}
+
+.title {
+  margin: 0;
+  padding-bottom: 8px;
+}
+
+.profile {
+  display: flex;
+  padding: 16px;
+}
+
+.info {
+  margin-top: 0;
+  b {
+    margin-left: 6px;
+  }
+}
+
+.data {
+  margin-left: 16px;
+}

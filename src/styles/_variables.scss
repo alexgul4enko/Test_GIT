@@ -1,0 +1,41 @@
+// Variables
+
+$header-height: 76px;
+$footer-height: 48px;
+
+// Color system
+
+$white:    #ffffff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e5e5e5;
+$gray-300: #dee2e6 !default;
+$gray-400: #c8c7c7;
+$gray-500: #918f90;
+$gray-600: #e3e3e3;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black:    #231f20;
+
+$blue:    #2196f3;
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #e83e8c !default;
+$red:     #f44336;
+$orange:  #ff9800;
+$yellow:  #fff77f;
+$green:   #4caf50;
+$teal:    #20c997 !default;
+$cyan:    #17a2b8 !default;
+
+$primary:       #feee00;
+$secondary:     $gray-600 !default;
+$success:       $green !default;
+$info:          $cyan !default;
+$warning:       $yellow !default;
+$danger:        #ff0c3e;
+$light:         $gray-100 !default;
+$dark:          $gray-800 !default;
+
+
+$page: #f1f5f8;

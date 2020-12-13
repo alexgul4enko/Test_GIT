@@ -1,0 +1,35 @@
+@import "variables";
+
+.header {
+  margin-top: 16px;
+}
+
+.repo {
+  padding: 16px;
+  p:not(.counts) {
+    margin-top: 0;
+    margin-bottom: 8px;
+  }
+}
+
+.name {
+  font-weight: 600;
+  font-size: 18px;
+  display: flex;
+  color: $black;
+}
+
+.desc {
+  color: $gray-700;
+}
+
+.counts {
+  font-size: 14px;
+  margin-right: 16px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.info-block {
+  display: flex;
+}

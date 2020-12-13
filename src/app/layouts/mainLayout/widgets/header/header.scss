@@ -1,0 +1,20 @@
+@import "variables";
+
+.header {
+  display: flex;
+  height: $header-height;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  padding: 0 16px;
+  background: #ffffff;
+}
+
+.logo {
+  height: 40px;
+}
+

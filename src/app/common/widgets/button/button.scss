@@ -1,0 +1,23 @@
+@import "variables";
+
+.root {
+  box-shadow: none !important;
+  .label {
+    text-transform: none;
+  }
+}
+
+.containedPrimary {
+  .label {
+    color: $black;
+  }
+}
+
+.size-large.contained-size-large {
+  padding: 12px 22px;
+  .label {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
